@@ -19,8 +19,3 @@ resource "digitalocean_spaces_bucket_object" "kubeconfig" {
   region     = "nyc3"
 }
 
-resource "kubernetes_namespace" "projeto-terraform-k8s" {
-  metadata {
-    name = "projeto-terraform-k8s"
-  }
-}
